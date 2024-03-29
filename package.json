@@ -1,0 +1,27 @@
+{
+  "name": "atm-arshah08",
+  "version": "1.0.0",
+  "description": "A simple ATM machine code using Typescript.",
+  "main": "index.js",
+  "bin": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshah8/ATM-Machine.git"
+  },
+  "author": "arshah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshah8/ATM-Machine/issues"
+  },
+  "homepage": "https://github.com/arshah8/ATM-Machine#readme",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
