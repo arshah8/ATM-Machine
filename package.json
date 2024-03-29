@@ -4,7 +4,7 @@
   "description": "A simple ATM machine code using Typescript.",
   "main": "index.js",
   "bin": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/arshah8/ATM-Machine#readme",
   "dependencies": {
+    "atm-arshah08": "^1.0.0",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {

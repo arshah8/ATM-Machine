@@ -5,6 +5,7 @@ console.log("***check code for password")
 const password = 1237;
 const totalBal = 200000;
 
+//Color Class Reference : https://decipher.dev/30-seconds-of-typescript/docs/colorize/
 export const colorize = new (class {
   color = (code: number, ended = false, ...messages: any[]) =>
     `\x1b[${code}m${messages.join(" ")}${ended ? "\x1b[0m" : ""}`;
